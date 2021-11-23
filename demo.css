@@ -1,0 +1,9 @@
+html,body {height:100%;}
+body {margin:0;}
+.outer {
+    display:table;
+    width:100%;
+    height:100%;
+}
+header,main,footer {display:table-row;}
+header,footer {height:1px;}
