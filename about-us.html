@@ -42,7 +42,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="vk.css">
+    
     
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
@@ -758,6 +758,35 @@ height:32px;		}
 .mob-retina-logo {
 height:32px;		}
 }
+ol {
+  max-width: 350px;
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 40px;
+}
+ol li {
+  margin: 0 0 0.5rem 0;
+  counter-increment: my-awesome-counter;
+  position: relative;
+}
+ol li::before {
+  content: counter(my-awesome-counter);
+  color: #fcd000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  --size: 32px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 0;
+  transform: rotate(-10deg);
+  background: black;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px 0 #999;
+}
 </style>
 <script type="text/javascript">function setREVStartSize(e){
 try{ var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;					
@@ -906,33 +935,18 @@ if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f
     <div class="col-sm-6 col-md-4 mb-3">
       <img src="https://images.unsplash.com/photo-1423589989400-cc0270157ed0?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=a95937ce1dc3243f52c30f86d948b771" alt="" class="fluid img-thumbnail">      
     </div>
-     <div class="col-sm-6 col-md-4 mb-3">
-      <img src="https://images.unsplash.com/photo-1423589989400-cc0270157ed0?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=a95937ce1dc3243f52c30f86d948b771" alt="" class="fluid img-thumbnail">      
-    </div>
-    <div class="col-sm-6 col-md-4 mb-3">
-      <img src="https://images.unsplash.com/photo-1423589989400-cc0270157ed0?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=a95937ce1dc3243f52c30f86d948b771" alt="" class="fluid img-thumbnail">      
-    </div>
-    <div class="col-sm-6 col-md-4 mb-3">
-      <img src="https://images.unsplash.com/photo-1423589989400-cc0270157ed0?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=a95937ce1dc3243f52c30f86d948b771" alt="" class="fluid img-thumbnail">      
-    </div>
   </div>
-</div>
+</div><hr>
+<hr>
+<hr>
+<hr>
 <footer class="footer-20192">
-    <a
-        href="https://wa.me/919999213570"
-        class="whatsapp_float"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="fa fa-whatsapp whatsapp-icon"></i>
-      </a>
-
       <div class="site-section">
         <div class="container">
 
           <div class="cta d-block d-md-flex align-items-center px-5">
             <div>
-              <h2 class="mb-0">Ready for a New Design</h2>
+              <h2 class="mb-0">Ready for a new Design</h2>
               <h3 class="text-dark">Let's get started!</h3>
             </div>
             <div class="ml-auto">
@@ -942,8 +956,8 @@ if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f
           <div class="row">
 
             <div class="col-sm">
-            	<h3>Contact Us : +91 99992 13570 <br><h3>Second No: +91 95600 96422<br><h3> Email:  alexzainteriors@gmail.com 
-            		<h3>Address : 3rd Floor, Plot No - 69 , Navneet Vihar, Ghaziabad, UP (201309)<br>
+                <h3>Contact Us : +91 99992 13570 ,  +91 95600 96422<br><h3>Email us : alexzainteriors@gmail.com<br>
+                    <h3>Address : 3rd Floor, Plot No - 69 , Navneet Vihar, Ghaziabad, UP (201309)<br>
               <a href="#" class="footer-logo">Alexza Interiors</a>
               <p class="copyright">
                 <h3>&copy; 2021</h3>
@@ -954,7 +968,7 @@ if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f
               <h3>Company</h3>
               <ul class="list-unstyled links">
                 <li><a style="font-size:20px"; href="about-us.html">About us</a></li>
-                <li><a style="font-size:20px"; href="#">Projects</a></li>
+                <li><a style="font-size:20px"; href="live-projects.html">Projects</a></li>
                 <li><a style="font-size:20px"; href="contact-us.html">Contact us</a></li>
               </ul>
             </div>
@@ -1003,9 +1017,9 @@ if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f
 document.addEventListener("DOMContentLoaded", function() {
 var gcaMain = new GetChatApp({
 'mobileNumber' : '+919999213570',
-'titleMessage' : 'Ø3dÜ4b Chat with Alexza Interiors on WhatsApp!',
-'welcomeMessage': 'Hey there!Ø3dÞ4c<br /> Get in touch with Alexza Interiors by typing a message here. It will go straight to my phone! Ø3dÝ25<br /> ~Alexza Interiors',
-'position' : 'right'
+'titleMessage' : '👋 Chat with Alexza Interiors on WhatsApp!',
+'welcomeMessage': 'Hey there!🙌<br /> Get in touch with Alexza Interiors by typing a message here. It will go straight to my phone! 🔥<br /> ~Alexza Interiors',
+'position' : 'left'
 });
 });
 </script>
