@@ -30,7 +30,12 @@ a,
 a:hover {
   text-decoration: none !important;
 }
-
+.header img {
+  float: left;
+  width: 200px;
+  height: 70px;
+  background: white;
+}
 .content {
   height: 70vh;
 }
