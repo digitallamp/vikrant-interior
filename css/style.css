@@ -32,9 +32,16 @@ a:hover {
 }
 .header img {
   float: left;
-  width: 100px;
-  height: 140px;
+  width: 80px;
+  height: 78px;
   background: white;
+}
+.header1 {
+  float: right;
+  width: 300px;
+  height: 15px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .content {
   height: 70vh;
@@ -129,6 +136,7 @@ a:hover {
   margin-left: 100px;
   border-bottom: solid 1px;
   width: 240px;
+  height: -100px;
 }
 .vikrant1 {
   text-align: left;
