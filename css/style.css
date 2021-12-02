@@ -32,8 +32,8 @@ a:hover {
 }
 .header img {
   float: left;
-  width: 200px;
-  height: 70px;
+  width: 100px;
+  height: 140px;
   background: white;
 }
 .content {
@@ -123,7 +123,19 @@ a:hover {
 
   display: block;
 }
-
+.vikrant {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 100px;
+  border-bottom: solid 1px;
+  width: 240px;
+}
+.vikrant1 {
+  text-align: left;
+  font-size: 15px;
+  margin-left: 100px;
+  
+}
 .process {
   text-align: center;
   font-size: 25px;
