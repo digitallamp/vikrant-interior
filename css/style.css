@@ -15,7 +15,9 @@ h6,
 .h3,
 .h4,
 .h5,
-.h6 {
+.h6,
+.v,
+.j {
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -43,6 +45,22 @@ a:hover {
   height: 10px;
   margin-left: 30px;
   margin-top: -10px;
+}
+.v {
+  height: 10px;
+  margin-left: 80px;
+  margin-top: -40px;
+  font-weight: bold;
+  font-family: sans-serif,roboto;
+  color: #333333;
+}
+
+.j {
+  margin-left: 80px;
+  margin-right: 40px;
+  font-weight: bold;
+  font-family: sans-serif,roboto;
+  color: #333333;
 }
 .content {
   height: 70vh;
